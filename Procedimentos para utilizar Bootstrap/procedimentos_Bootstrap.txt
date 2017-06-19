@@ -1,0 +1,7 @@
+PROCEDIMENTOS PARA UTILIZACÃO DO BOOTSTRAP
+
+1 - Acessar https://bootswatch.com/ 
+2 - Escolher um tema
+3 - Abrir o DropDown da opcão "Download"
+4 - Efetuar o download de todos os arquivos
+5 - Salvar os arquivos dentro da pasta do seu projeto
