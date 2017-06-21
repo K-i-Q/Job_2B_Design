@@ -1,0 +1,32 @@
+*{
+	font-family: "Times New Roman", Times, serif;
+}
+body, table, p, h1, input[type=submit]{
+	color: Orange;
+}
+
+body{
+	padding: 2%;
+}
+table:hover{
+	border: dotted;
+	transition: 1s;
+}
+p{
+	font-size:1.2em;
+}
+h1{
+	background:lightblue;
+}
+input[type=text]:active{
+	background:#ccc;
+}
+input[type=submit]{
+	border-radius: 10px;
+}
+input[type=submit]:focus{
+	border-radius: 50%;
+}
+textarea:focus{
+	background:#eee;
+}
