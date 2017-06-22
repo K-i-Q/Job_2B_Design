@@ -16,7 +16,6 @@
 		</header>
 		<nav id="navigationMenu">
 			<nav class="navbar navbar-inverse">
-			  <div class="container-fluid">
 				<div class="navbar-header">
 				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
 					<span class="sr-only">Toggle navigation</span>
@@ -28,18 +27,21 @@
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
 				  <ul class="nav navbar-nav">
-					<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-					<li><a href="#">Link</a></li>
+					<li class="active"><a href="#">Início <span class="sr-only">(current)</span></a></li>
+					<li><a href="#">Contatos</a></li>
 					<li class="dropdown">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">HTML 5 <span class="caret"></span></a>
 					  <ul class="dropdown-menu" role="menu">
-						<li><a href="#">Action</a></li>
-						<li><a href="#">Another action</a></li>
-						<li><a href="#">Something else here</a></li>
-						<li class="divider"></li>
-						<li><a href="#">Separated link</a></li>
-						<li class="divider"></li>
-						<li><a href="#">One more separated link</a></li>
+						<li><a href="header.html">HEADER</a></li>
+						<li><a href="nav.html">NAV</a></li>
+						<li><a href="article.html">ARTICLE</a></li>
+						<li><a href="section.html">SECTION</a></li>
+						<li><a href="aside.html">ASIDE</a></li>
+						<li><a href="footer.html">FOOTER</a></li>
+						<li><a href="video.html">VIDEO</a></li>
+						<li><a href="audio.html">AUDIO</a></li>
+						<li><a href="figure.html">FIGURE</a></li>
+						<li><a href="mark.html">MARK</a></li>
 					  </ul>
 					</li>
 				  </ul>
@@ -53,17 +55,64 @@
 					<li><a href="#">Link</a></li>
 				  </ul>
 				</div>
-			  </div>
 			</nav>
 		</nav>
-		<article id="contentBody">
-			<section>
-				
+		<article id="contentBody" class="container-fluid">
+			<section id="contentBanner">
+				<div class="jumbotron">
+				  <h1>Jumbotron</h1>
+				  <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+				  <p><a class="btn btn-primary btn-lg">Learn more</a></p>
+				</div>
 			</section>
+			<aside id="newsAndCategories">
+				<div class="panel panel-primary">
+				  <div class="panel-heading">
+					<h3 class="panel-title">Categorias & NewsLetter</h3>
+				  </div>
+				  <div class="panel-body">
+					
+						<ul class="categoriesAndNews">
+						<table class="table table-striped table-hover ">
+							<tbody>
+								<tr class="info">
+									<li><a href="header.html">HEADER</a></li>
+								</tr>
+								<tr class="info">
+									<li><a href="nav.html">NAV</a></li>
+								</tr>
+								<tr class="info">
+									<li><a href="article.html">ARTICLE</a></li>
+								</tr>
+								<tr class="info">
+									<li><a href="section.html">SECTION</a></li>
+								</tr>
+								<tr class="info">
+									<li><a href="aside.html">ASIDE</a></li>
+								</tr>
+								<tr class="info">
+									<li><a href="footer.html">FOOTER</a></li>
+								</tr>
+								<tr class="info">
+									<li><a href="video.html">VIDEO</a></li>
+								</tr>
+								<tr class="info">
+									<li><a href="audio.html">AUDIO</a></li>
+								</tr>
+								<tr class="info">
+									<li><a href="figure.html">FIGURE</a></li>
+								</tr>
+								<tr class="info">
+									<li><a href="mark.html">MARK</a></li>
+								</tr>
+							</tbody>
+							</table>
+						</ul>
+					
+				  </div>
+				</div>
+			</aside>
 		</article>
-		<aside id="newsAndMenu">
-			
-		</aside>
 		<footer id="footerSite">
 			
 		</footer>
