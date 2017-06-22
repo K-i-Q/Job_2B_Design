@@ -2,23 +2,29 @@
 
 /*IDs pricipais*/
 /*id-logoSite-ID que guarda a logo marca*/
-#logoSite{
+header#logoSite{
 	
 }
 /*id-navigationMenu-ID que guarda o menu de negacão*/
-#navigationMenu{
+nav#navigationMenu{
 	
 }
 /*id-contentBody-ID que guarda o conteúdo do corpo do site*/
-#contentBody{
+article#contentBody{
 	
+}
+section#contentBanner{
+	float:left;
 }
 /*id-newsAndMenu-ID que guarda a parte lateral do site*/
-#newsAndMenu{
-	
+aside#newsAndCategories{
+	float:left;
+}
+ul.categoriesAndNews li{
+	list-style-type:none;
 }
 /*id-footerSite-ID que guarda o rodapé do site*/
-#footerSite{
+footer#footerSite{
 	
 }
 /*Final dos IDs principais*/
