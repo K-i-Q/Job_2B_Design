@@ -1,0 +1,169 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/aba.jpg" />
+    <title>O Boticário</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/custom.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <!-- INICIO NAVBAR -->
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper red accent-2">
+          <a class="brand-logo center titulo">O Boticário</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down tituloNavEsq">
+            <li><a href="#">FEMINIO</a></li>
+            <li><a href="#">MASCULINO</a></li>
+            <li><a href="#">INFANTIL</a></li>
+            <li><a href="#">LINHA COMPLETA</a></li>
+          </ul>
+          <ul id="nav-mobile" class="right hide-on-med-and-down tituloNavDir">
+            <li><a href="#">LOGIN</a></li>
+            <li><a href="#">MINHA SACOLA</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- FIM NAVBAR -->
+  </head>
+  <body>
+    <!-- INICIO CORPO PAGINA/PARALLAX -->
+    <!-- IMAGEM PARALLAX -->
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/logo.jpg"></div>
+    </div>
+    <!-- FIM IMAGEM PARALLAX -->
+    <div class="section red accent-2">
+      <div class="row container">
+        <div class="slider">
+          <ul class="slides">
+            <li><img src="img/slide1.jpg" class="responsive-img"></li>
+            <li><img src="img/slide2.jpg" class="responsive-img"></li>
+            <li><img src="img/slide3.jpg" class="responsive-img"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- IMAGEM PARALLAX -->
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/img2.jpg"></div>
+    </div>
+    <!-- FIM IMAGEM PARALLAX -->
+    <div class="section grey lighten-2">
+      <div class="row container">
+      <h2 class="header">SOBRE</h2>
+        <h5>O Boticário é uma rede de franquias de cosméticos e perfumes brasileira, com sede no Paraná. Seus principais produtos são fragrâncias, cremes e produtos para maquiagem. É a oitava maior empresa varejista do país, segundo classificação do Ibevar em 2012. Foi fundada em 1977 por Miguel Krigsner como uma farmácia de manipulação no centro de Curitiba.</h5>
+        
+        <h5>Em 2010, a empresa paranaense abriu a sua 160ª loja (franquia), tornando-se a líder em quantidade de lojas e faturamento em território nacional (Brasil) e está entre as três maiores redes de franquia do mundo. No mesmo ano, a empresa criou o Grupo Boticário, uma holding presidida por Artur Grynbaum.
+        </h5>
+      </div>
+    </div>
+    <!-- IMAGEM PARALLAX -->
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/img3.jpg"></div>
+    </div>
+    <!-- FIM IMAGEM PARALLAX -->
+    <div class="section grey lighten-2">
+      <div class="row container">
+        <div class="row">
+          <h2 class="header">SEJA UM REVENDEDOR BOTICÁRIO!!</h2>
+          <h5>Preencha o Formulário para darmos entrada no processo.</h5>
+          <!-- INICIO FORM DE ENVIO -->
+          <form class="col s12" action="">
+            <div class="row">
+              <div class="input-field col s6 ">
+                <i class="material-icons prefix">account_circle</i>
+                <input  id="first_name" type="text" class="validate" required minlength="3">
+                <label for="first_name">Nome</label>
+              </div>
+              <div class="input-field col s4">
+                <i class="material-icons prefix">assignment_ind</i>
+                <input  id="cpf" type="text" class="validate" data-mask="999.999.999-99" minlength="11" maxlength="11" required>
+                <label for="cpf" data-error="CPF INCORRETO" data-success="OK">CPF</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s6">
+                <i class="material-icons prefix">label_outline</i>
+                <input id="password" type="password" class="validate" minlength="6" maxlength="18" required>
+                <label for="password" data-error="DEVE POSSUIR NO MINIMO 6 DIGITOS E NO MAXIMO 18." data-success="OK">Senha</label>
+              </div>
+              <div class="input-field col s4">
+                <i class="material-icons prefix">date_range</i>
+                <input id="dtNasc" type="text" class="validate" minlength="10" maxlength="10" required data-mask="99/99/9999">
+                <label for="dtNasc" data-error="DATA DE NASCIMENTO INCORRETA" data-success="OK">Data de Nascimento</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s6">
+                <i class="material-icons prefix">email</i>
+                <input id="email" type="email" class="validate" required>
+                <label for="email" data-error="INFORME UM @ E PELO MENOS UM PONTO APÓS O @" data-success="OK">Email</label>
+              </div>
+              <div class="input-field col s4">
+                <i class="material-icons prefix">room</i>
+                <input id="cep" type="text" class="validate" required maxlength="8" minlength="8" data-mask="99.999-999">
+                <label for="cep" data-error="CEP INCORRETO" data-success="OK">CEP</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <button class="btn waves-effect waves-light" onclick="chamaAlert()" id="enviar" name="enviar">ENVIAR
+                  <i class="material-icons right">send</i>
+                </button>
+              </div>
+            </div>
+          </form>
+          <!-- FIM FORM -->
+        </div>
+      </div>
+    </div>
+    <!-- IMAGEM PARALLAX -->
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/img4.jpg"></div>
+    </div>
+    <!-- FIM IMAGEM PARALLAX -->
+    <!-- FIM CORPO DA PAGINA/PARALLAX -->
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script src="js/jquery.mask.js" type="text/javascript"></script>
+  </body>
+
+  <!-- INICIO RODAPÉ -->
+  <footer class="page-footer red accent-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <p class="grey-text text-lighten-4">INTERBELLE COMÉRCIO DE PRODUTOS DE BELEZA LTDA. <br>
+                                              RODOVIA RÉGIS BITENCOURT, KM 437                <br>
+                                              RIBEIRÃO VERMELHO, REGISTRO, SÃO PAULO          <br>
+                                              CEP 11900-000                                   <br>
+                                              CNPJ/MF 11.137.51/0406-41                       <br>
+                                              IE 574.066.180.111
+          </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="http://www.boticario.com.br/atendimento/politica-de-privacidade" target="_blank">Política de Privacidade</a></li>
+            <li><a class="grey-text text-lighten-3" href="http://www.planalto.gov.br/ccivil_03/leis/l8078.htm" target="_blank">Código de Defesa do Consumidor</a></li>
+            <li><a class="grey-text text-lighten-3" href="http://www.boticario.com.br/atendimento/termos-de-uso" target="_blank">Termos de Uso</a></li>
+            <li><a class="grey-text text-lighten-3" href="http://www.boticario.com.br/atendimento/alerta-emails" target="_blank">Alerta Sobre Segurança</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2017 Trabalho Design de Interação - 2º Bimestre
+      </div>
+    </div>
+  </footer>
+  <!-- FIM RODAPÉ -->
+</html>
