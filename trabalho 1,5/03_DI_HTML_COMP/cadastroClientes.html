@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html style="border:3px solid orange;">
+	<head>
+		<title>Cadastro de Clientes</title>
+		<meta charset="utf-8">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<h1 align="center">SISTEMA DE TESTES</h1>
+	</head>
+	<body>
+		<div class="container">
+			Cadastro de Clientes
+			<form>
+				<table>
+					<tr>
+						<td>
+						Nome Completo
+						</td>
+						<td>
+		  				<input type="text" name="Nome" style="border:3px solid orange; margin: 10px; width: 750px" required="required"><br>
+		  				</td>
+		  			</tr>
+		  			<tr>
+		  				<td>
+		  					Data Nascimento
+		  				</td>
+		  				<td>
+		  					<input type="date" name="dtnasc" style="border:3px solid orange; margin: 10px"><br><br>
+		  				</td>
+		  				<td align="left">
+		  					Sexo
+		  				</td>
+		  				<td>
+							<input type="radio" name="gender" value="male" checked  style="border:3px solid orange; margin: 5px">M
+							<input type="radio" name="gender" value="female" style="border:3px solid orange; margin: 5px"> F<br>
+		  				</td>
+		  			</tr>
+		  			<tr>
+		  				<td>
+		  					Endereço
+		  				</td>
+		  				<td>
+		  					<input type="text" name="Endereco" style="border:3px solid orange; margin: 10px; width: 700px" required="required">
+		  				</td>
+		  				<td>
+		  					N°
+		  				</td>
+		  				<td>
+		  					<input type="text" name="Endereco" style="border:3px solid orange" required="required">
+		  				</td>
+		  			</tr>
+		  			<tr>
+		  				<td>
+		  					Cidade
+		  				</td>
+		  				<td>
+		  					<input type="text" name="Endereco" style="border:3px solid orange; margin: 10px; width: 400px" required="required">
+		  				</td>
+		  				<td>
+		  					Estado
+		  				</td>
+		  				<td>
+		  					<select name="Estado" style="border:3px solid orange; margin: 10px;" required="required">
+		  						<option value="AC">AC</option> 
+		  						<option value="AL">AL</option> 
+		  						<option value="AP">AP</option> 
+		  						<option value="AM">AM</option> 
+		  						<option value="BA">BA</option> 
+		  						<option value="CE">CE</option> 
+		  						<option value="DF">DF</option> 
+		  						<option value="ES">ES</option> 
+		  						<option value="GO">GO</option> 
+		  						<option value="MA">MA</option> 
+		  						<option value="MT">MT</option> 
+		  						<option value="MS">MS</option> 
+		  						<option value="MG">MG</option> 
+		  						<option value="PA">PA</option> 
+		  						<option value="PB">PB</option> 
+		  						<option value="PR">PR</option> 
+		  						<option value="PE">PE</option> 
+		  						<option value="PI">PI</option> 
+		  						<option value="RJ">RJ</option> 
+		  						<option value="RN">RN</option> 
+		  						<option value="RO">RO</option> 
+		  						<option value="RR">RR</option> 
+		  						<option value="RS">RS</option> 
+		  						<option value="SC">SC</option> 
+		  						<option value="SP">SP</option> 
+		  						<option value="SE">SE</option> 
+		  						<option value="TO">TO</option> 
+		  					</select>
+		  				</td>
+		  			</tr>
+		  			<tr>
+		  				<td>
+		  					CPF
+		  				</td>
+		  				<td>
+		  					<input type="number" name="cpf" style="border:3px solid orange; margin: 10px;" maxlength="11" minlength="11" required="required">
+		  				</td>
+		  			</tr>
+		  			<tr>
+		  				<td>
+		  					Usuário
+		  				</td>
+		  				<td>
+		  					<input type="text" name="usr" style="border:3px solid orange; margin: 10px;" minlength="3" required="required">
+		  				</td>
+		  			</tr>
+		  			<tr>
+		  				<td>
+		  					Senha
+		  				</td>
+		  				<td>
+		  					<input type="password" name="psw" style="border:3px solid orange; margin: 10px;" minlength="5" required="required">
+		  				</td>
+		  			</tr>
+		  			<tr>
+		  				<td>
+		  					Confirme Senha
+		  				</td>
+		  				<td>
+		  					<input type="password" name="psw" style="border:3px solid orange; margin: 10px;" minlength="5" required="required">
+		  				</td>
+		  			</tr>
+		  		</table>
+			</form>
+		  	<div align="center">
+		  		<a href="inicioMenu.html"><button class="btn btn-warning" onclick="alert('Cliente adicionado com sucesso!')">GRAVAR</button></a>
+		  		<a href="pesquisaClientes.html"><button class="btn btn-warning">PESQUISAR</button></a>
+		  		<a href="inicioMenu.html"><button class="btn btn-warning">VOLTAR</button></a>
+			</div>
+		</div>
+	</body>
+</html>
